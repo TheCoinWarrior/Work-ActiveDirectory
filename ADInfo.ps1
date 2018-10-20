@@ -11,7 +11,15 @@
  
 #>
 
-Clear-host
+Import-Module ActiveDirectory
+
+function Show-Menu
+{
+     param (
+           [string]$Title = 'ACTIVE DIRECTORY INFO'
+     )
+     
+     Clear-host
  $block = @"
 
               ___
@@ -31,15 +39,8 @@ Clear-host
 
 Write-Host 
 Write-Host $block -ForegroundColor Green
-
-Import-Module ActiveDirectory
-
-
-function Show-Menu
-{
-     param (
-           [string]$Title = 'ACTIVE DIRECTORY INFO'
-     )
+     
+     
      Write-Host "================ $Title ================" -ForegroundColor white -BackgroundColor red
      Write-Host
      Write-Host "1: List Domain Controllers in Domain"
