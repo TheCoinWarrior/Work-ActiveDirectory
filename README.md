@@ -23,4 +23,7 @@ Scripts that helps admins to manage day to day tasks in Active Directory
 <br>
 **AddComputerDescription.ps1** - Add Computer Description in AD with Vendor,Name and ID Number
 <br>
+**UserDidNotLogIn30days.ps1** - Create a CSV reports with users that did not login over 30 days
+<br>
+
 
