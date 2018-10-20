@@ -2,6 +2,7 @@
 
 <#
 .ScriptName: Update-EmployeeID.ps1
+
 .Description: Updates individual user in AD with EmployeeID
 
 .NOTES 
@@ -42,6 +43,7 @@ $EmployeeID = Read-Host " Enter EmployeeID for User "
 Set-ADUSer -identity $user -EmployeeID $EmployeeID 
 Get-ADUser -identity $user -Properties * | Select-Object SamAccountName,EmployeeID
 
+Write-Host
 Write-host "[ Completed ]" -ForegroundColor white -BackgroundColor Red
 
 Write-Host 
