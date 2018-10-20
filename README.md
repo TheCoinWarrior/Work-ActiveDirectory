@@ -13,3 +13,7 @@ Scripts that helps admins to manage day to day tasks in Active Directory
 <br>
 <img src="/images/User2User.png" alt="User2User - Copying Group Membership" style="float: left;" />
 <br><br>
+**ExtensionUpdate.ps1 - Update individual user in AD with phone extension**
+<br>
+<img src="/images/PhoneExtensionUpdate.png" alt="Phone Extension Update for user" style="float: left;" />
+<br><br>
