@@ -43,7 +43,7 @@ $EmployeeID = Read-Host " Enter EmployeeID for User "
 Set-ADUSer -identity $user -EmployeeID $EmployeeID 
 Get-ADUser -identity $user -Properties * | Select-Object SamAccountName,EmployeeID
 
-Write-Host
+Write-host
 Write-host "[ Completed ]" -ForegroundColor white -BackgroundColor Red
 
 Write-Host 
