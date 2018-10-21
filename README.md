@@ -27,5 +27,7 @@ Scripts that helps admins to manage day to day tasks in Active Directory
 <br>
 **ExportUsersGroupMembership.ps1** - Export each user in AD and all Groups the user is member of
 <br>
+**ADUSerPasswordAgeReport.ps1** - Create a report with Password Age for each user in AD to csv file
+</br>
 
 
